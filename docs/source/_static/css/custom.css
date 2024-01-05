@@ -1,0 +1,1454 @@
+/* Всякое */
+
+h1,
+section.h1 h1,
+section.h1 h2,
+section.h1 h3,
+section.h1 h4,
+section.h1 h5,
+p.h1.rubric {
+	box-sizing: border-box;
+	color: #5e0000;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 175%;
+	font-weight: bold;
+	margin-bottom: 0.35em;
+	margin-top: 0;
+}
+
+h2,
+section.h2 h1,
+section.h2 h2,
+section.h2 h3,
+section.h2 h4,
+section.h2 h5,
+p.h2.rubric {
+	box-sizing: border-box;
+	color: #002664;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 0.25em;
+	margin-top: 1em;
+	text-transform: initial;
+}
+
+h3,
+section.h3 h1,
+section.h3 h2,
+section.h3 h3,
+section.h3 h4,
+section.h3 h5,
+p.h3.rubric {
+	box-sizing: border-box;
+	color: #5e0000;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.25em;
+	margin-top: 0.6em;
+	text-transform: uppercase;
+}
+
+h4,
+section.h4 h1,
+section.h4 h2,
+section.h4 h3,
+section.h4 h4,
+section.h4 h5,
+p.h4.rubric {
+	box-sizing: border-box;
+	color: #a86753;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.25em;
+	margin-top: 0.6em;
+	text-transform: initial;
+}
+
+h5,
+section.h5 h1,
+section.h5 h2,
+section.h5 h3,
+section.h5 h4,
+section.h5 h5,
+p.h5.rubric {
+	box-sizing: border-box;
+	color: #404040;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.15em;
+	margin-top: 0.4em;
+	text-transform: uppercase;
+}
+
+
+p {
+	line-height: 23px;
+	margin-bottom: 0.2em;
+}
+
+hr {
+	margin: 0.5em 0;
+}
+
+.changelog h5 {
+	text-transform: initial;
+}
+
+.changelog hr {
+	margin: 0.3em 0;
+}
+
+.wy-nav-content {
+	background-color: #efede9;
+	max-width: 100%;
+	padding: 1.5em 1.75em;
+}
+
+.rst-content ul.simple,
+.rst-content ol.simple,
+.rst-content .line-block {
+	margin-bottom: 0.3em !important;
+}
+
+.rst-content ul.simple {
+	list-style-type: disc;
+}
+
+.rst-content ul.simple li {
+	list-style-type: inherit;
+	margin-left: 1em;
+}
+
+.rst-content ul.simple li p {
+	margin-bottom: 0;
+}
+
+.rst-content section > .line-block {
+	border-left: 0.25em solid #cec1ac;
+	padding-left: 0.4em;
+}
+
+.rst-content div.admonition {
+	margin-bottom: 0.6em;
+}
+
+.toctree-wrapper ul li.toctree-l1 {
+	margin-left: 1em;
+}
+
+.toctree-wrapper ul li.toctree-l2 {
+	margin-left: 1em;
+}
+
+blockquote.epigraph p {
+	margin-bottom: 0.5em;
+}
+
+blockquote.epigraph,
+blockquote.epigraph {
+	margin-left: 0.2em;
+	margin-bottom: 0.2em;
+	color: #5e0000;
+}
+
+blockquote.epigraph + hr.docutils {
+	border-top: 1px solid;
+	margin: 0 0;
+	margin-bottom: 1em;
+}
+
+.rst-content blockquote {
+	margin-bottom: 0.1em;
+	margin-top: 0.1em;
+}
+
+/*section {
+	margin-top: 0.9em;
+}*/
+
+section.wy-nav-content-wrap {
+	margin-top: 0;
+}
+
+
+
+
+/*
+	Сайдбары
+*/
+
+.rst-content aside.sidebar {
+	background-color: #cec1ab;
+	margin-bottom: 0.6em;
+	margin-left: 0.6em;
+	padding-bottom: 0.6em;
+	padding-left: 0.6em;
+	padding-right: 0;
+}
+
+.rst-content aside.sidebar > p {
+	margin-bottom: 0.2em;
+	line-height: 1.4em;
+	/*text-indent: 1em;*/
+}
+
+.rst-content aside.sidebar ul {
+	font-size: initial;
+}
+
+.rst-content aside.sidebar p.sidebar-title {
+	background-color: #afa492;
+	text-transform: uppercase;
+	margin-left: -0.6em;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+}
+
+
+.rst-content aside.sidebar p.rubric {
+	margin-bottom: 0.1em;
+	margin-top: 0.8em;
+	text-indent: initial;
+	text-transform: uppercase;
+}
+
+.rst-content aside.sidebar-char-ancestry-class {
+	background-color: #efede9;
+	border: solid #5e0000;
+	border-width: 0 0 0 1px;
+	padding-top: 0em;
+	padding-bottom: 0.6em;
+	width: 30%;
+}
+
+.rst-content aside.sidebar-char-ancestry-class p.sidebar-title {
+	display: none;
+}
+
+.rst-content aside.sidebar-char-ancestry-class > p {
+	color: #5e0000;
+	margin-bottom: 0;
+	text-indent: initial;
+	line-height: 1.4em;
+}
+
+.rst-content aside.sidebar-char-ancestry-class p.rubric {
+	color: #5e0000;
+	margin-bottom: 0.3em;
+	margin-top: 0.8em;
+	text-indent: initial;
+	text-transform: uppercase;
+}
+
+
+.rst-content aside.sidebar-wide {
+	float: initial;
+	width: 85%;
+}
+
+
+aside.sidebar div.line-block {
+	margin-bottom: 0.2em;
+	line-height: 1.5em;
+	font-size: 90%;
+}
+
+
+
+
+
+/*
+	Таблицы
+*/
+
+.wy-table-responsive {
+	margin-bottom: 1em;
+}
+
+.rst-content table.docutils caption {
+	font: inherit;
+	text-align: left;
+	text-transform: uppercase;
+	padding-bottom: 0.25em;
+	padding-top: 0.5em;
+}
+
+.rst-content table.docutils thead {
+	background-color: #5e0000;
+	color: #fff;
+	text-align: inherit;
+	vertical-align: middle;
+}
+
+.rst-content table.docutils thead div.line-block {
+	line-height: 1.25em;
+	margin: 0;
+}
+
+.rst-content table.docutils th {
+	padding: 0.25em 0.5em;
+}
+
+.rst-content table.docutils th p {
+	margin-bottom: 0em;
+}
+
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+	background-color: #ece2c7;
+}
+
+.rst-content table.docutils tbody tr.row-even {
+	background-color: #f4eedf;
+}
+
+section.treasure-table table td:first-child {
+	white-space: normal;
+}
+
+section.feats-descr table th,
+section.feats-descr table td {
+	white-space: normal;
+}
+
+
+table.weapon-table th {
+	white-space: normal;
+}
+
+table.weapon-table td {
+	white-space: pre;
+	line-height: 17px !important;
+	vertical-align: top !important;
+}
+
+table.weapon-table td:first-child {
+	white-space: normal;
+}
+
+table.weapon-table td p {
+	line-height: 17px !important;
+}
+
+table.weapon-ranged-table td:first-child {
+	white-space: pre;
+}
+
+
+table.condensed-table th,
+table.condensed-table td {
+	white-space: normal;
+}
+
+table.condensed-part-table td {
+	white-space: normal;
+}
+
+table.condensed-part-table td:last-child {
+	white-space: pre;
+}
+
+table.condensed-ftd-table td {
+	white-space: normal;
+}
+
+table.condensed-ftd-table td:first-child {
+	white-space: pre;
+}
+
+table.condensed-pre-table td {
+	white-space: pre !important;
+}
+
+
+.rst-content table.docutils td {
+	padding: 0.3em 0.2em;
+}
+
+.rst-content table.docutils td p {
+	margin-bottom: 0.1em;
+}
+
+.rst-content table.docutils td:nth-child(1) p:not(:first-child),
+.rst-content table.docutils td:nth-child(1) div.line-block:not(:first-child) {
+	text-indent: 1em;
+}
+
+.rst-content table.docutils td div.line-block {
+	/*line-height: 1.4em;*/
+	line-height: inherit;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+/*
+	Изображения
+*/
+
+.rst-content figure > figcaption {
+	background-color: #ede3c8;
+}
+
+.rst-content figure > figcaption > p {
+	color: #5e0000;
+	font-style: normal;
+	font-weight: bolder;
+	margin-bottom: 0;
+	padding: 0.6em 0 0.3em 2em;
+	/*text-indent: 1em;*/
+	text-transform: uppercase;
+}
+
+.rst-content figure > figcaption div.legend {
+	padding: 0 1.5em 0.6em 0.6em;
+}
+
+.rst-content figure > figcaption div.legend p {
+	margin: 0;
+}
+
+
+
+/*
+	Вступление: родословные, классы
+*/
+
+
+.container-intro-anc-class {
+}
+
+.container-intro-anc-class .intro-anc {
+	width: 145px;
+	height: 330px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px;
+}
+
+.container-intro-anc-class .intro-anc img {
+	margin-bottom: 1em;
+}
+
+.container-intro-anc-class .intro-anc > p {
+	font-size: 0.85em;
+	font-weight: 100;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+}
+
+.ability-boost {
+	display: block;
+	color: green;
+	font-weight: bolder;
+}
+
+.ability-flaw {
+	display: block;
+	color: red;
+	font-weight: bolder;
+}
+
+
+
+.container-intro-anc-class .intro-class {
+	width: 212px;
+	height: 230px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px;
+}
+
+.container-intro-anc-class .intro-class img {
+	margin-bottom: 1em;
+}
+
+.container-intro-anc-class .intro-class > p {
+	font-size: 0.85em;
+	font-weight: 100;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+}
+
+.ability-key {
+	display: block;
+	color: green;
+	font-weight: bolder;
+}
+
+.ability-sec {
+	display: block;
+	color: navy;
+	font-weight: bolder;
+}
+
+
+
+/*
+	admonitions
+*/
+
+div.admonition {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 66%;
+}
+
+div.admonition p {
+	margin-bottom: 0.2em;
+	line-height: 1.4em;
+}
+
+
+div.admonition.tip {
+	background-color: #d1d3d4;
+}
+
+div.admonition.tip p.admonition-title {
+	background-color: #002664;
+}
+
+@media screen and (max-width: 1024px) {
+	div.admonition.hint {
+		width: auto;
+	}
+}
+
+div.admonition.hint p:nth-child(odd) {
+	margin-bottom: 0.8em;
+}
+
+div.admonition.hint p:nth-child(even) {
+	margin-bottom: 0.1em;
+}
+
+div.admonition.hint p strong {
+	text-transform: uppercase;
+}
+
+
+div.admonition.intro-anc p.admonition-title {
+	font-weight: bolder;
+	font-size: initial;
+	background-color: #5e0000;
+}
+
+div.admonition.intro-class p.admonition-title {
+	font-weight: bolder;
+	font-size: initial;
+	background-color: #002664;
+}
+
+div.admonition.clarification {
+	margin-top: 0.4em;
+	margin-bottom: 0em;
+	padding-bottom: 0.3em;
+	width: initial;
+}
+
+div.admonition.clarification p.admonition-title {
+	margin-bottom: 0.4em;
+}
+
+div.admonition.clarification .admonition-title:before {
+    content: "";
+}
+
+
+img.game-icon {
+	height: 3em;
+}
+
+aside.sidebar img.game-icon,
+section h2 + p img.game-icon,
+section h3 + p img.game-icon,
+section h4 + p img.game-icon,
+section h5 + p img.game-icon,
+p.h3.rubric + p img.game-icon {
+	float: left;
+	margin-right: 0.5em;
+}
+
+
+
+/*
+	Надстрочный текст
+*/
+
+sup {
+	top: -0.4em;
+	font-size: 70%;
+}
+
+
+
+/*
+	versionchanged, versionadded
+*/
+
+div.versionchanged {
+	color: darkred;
+}
+
+div.versionadded {
+	color: navy;
+}
+
+div.versionchanged p,
+div.versionadded p {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	margin-bottom: 0em;
+}
+
+div.versionchanged span.versionmodified,
+div.versionadded span.versionmodified {
+	font-size: 0.9em;
+	font-weight: bolder;
+	line-height: 1.4em;
+}
+
+
+
+/*
+	Классы, родословные, предыстории
+*/
+
+/* as h1*/
+section.ancestry h2,
+section.versatile-heritages h2,
+/*section.backgrounds h2,*/
+/*section.languages h2,*/
+/*section.char-class h2,*/
+/*section.animal-companions h2,*/
+/*section.class-archetypes h2,*/
+section.equip-subchap h2,
+/*section.gear-description h2,*/
+section.lo-index-subchap h2,
+section.spells-index-subchap h2,
+/*section.ch8-creatures h2,*/
+/*section.ch8-factions h2,*/
+/*section.religion h2,*/
+/*section.spells-focus h2,*/
+/*section.spells-rituals h2,*/
+section.gm-subchap h2,
+/*section.conditions h2,*/
+/*section.glossary h2,*/
+section.appendix-traits h2,
+section.appendix-index h2,
+section.game-mode h2 {
+	box-sizing: border-box;
+	color: #5e0000;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 175%;
+	font-weight: bold;
+	margin-bottom: 0.35em;
+	margin-top: 5em;
+	text-transform: initial;
+}
+
+/* as h2*/
+section.char-creation-step h3,
+section.ancestry h2,
+section.versatile-heritages h3,
+section.backgrounds h1,
+/*section.languages h3,*/
+/*section.char-class h2,*/
+section.companions h1,
+/*section.animal-companions h2,*/
+/*section.class-archetypes h3,*/
+section.archetype-multiclass h1,
+section.archetype h1,
+section.archetype-description h1,
+section.archetype-chapter h1,
+section.hellknight-order-abilities h1,
+section.equip-sub h1,
+section.lo-culture h1,
+section.lo-creatures h1,
+section.lo-faction h1,
+section.lo-religion h1,
+section.spells-focus h1,
+section.rituals-list h1,
+section.spells-rituals-subchap h1,
+section.craft-treasure-alchemicalitems h1,
+/*section.craft-treasure-consumables h1,*/
+section.craft-treasure-snares h1,
+section.craft-treasure-held h1,
+section.craft-treasure-worn h1,
+section.craft-treasure-runes h1,
+section.craft-treasure-shields h1,
+section.craft-treasure-weapons h1,
+/*section.craft-treasure-staves h1,*/
+/*section.craft-treasure-staves-personal > h2,*/
+section.craft-treasure-wands h1,
+section.craft-treasure-armor h1,
+section.craft-treasure-structures h1,
+section.craft-treasure-materials h1,
+section.gm-subchap h3,
+section.hazards h1,
+section.hazards-list h1,
+/*section.conditions h3,*/
+/*section.glossary h3,*/
+section.appendix-traits h3,
+section.game-mode h3,
+section.creature-details h1,
+section.using-npc-gallery h1 {
+	box-sizing: border-box;
+	color: #002664;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 0.25em;
+	margin-top: 1em;
+	text-transform: initial;
+}
+
+/* as h3*/
+section.char-creation-step h4,
+/*section.ancestry h4,*/
+section.versatile-heritages h4,
+/*section.char-class h3,*/
+section.companions h2,
+/*section.animal-companions h3,*/
+/*section.class-archetypes h2,*/
+section.archetype-multiclass h2,
+section.archetype h4,
+section.archetype-chapter h2,
+section.hellknight-order-abilities h2,
+section.equip-sub h2,
+section.gear-description h2,
+section.lo-culture h2,
+section.lo-religion h2,
+section.lo-other-deity h1,
+section.deity h2,
+section.spells-rituals-subchap h2,
+section.craft-treasure-alchemicalitems h2,
+/*section.craft-treasure-consumables h2,*/
+section.craft-treasure-snares h2,
+section.craft-treasure-worn h2,
+section.craft-treasure-runes h2,
+section.craft-treasure-shields h2,
+section.craft-treasure-weapons h2,
+/*section.craft-treasure-staves h2,*/
+section.craft-treasure-wands h2,
+section.craft-treasure-armor h2,
+section.craft-treasure-materials h2,
+section.gm-subchap h4,
+section.planes h2,
+section.hazards h2,
+/*section.relic-gifts h2,*/
+/*section.conditions h2,*/
+/*section.glossary h4,*/
+section.appendix-traits h4,
+section.game-mode h4,
+section.using-npc-gallery h2 {
+	box-sizing: border-box;
+	color: #5e0000;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.25em;
+	margin-top: 0.5em;
+	text-transform: uppercase;
+}
+
+/* as h4*/
+section.char-creation-step h5,
+section.ancestry h5,
+section.versatile-heritages h5,
+/*section.char-class h4,*/
+section.companions h3,
+/*section.animal-companions h4,*/
+/*section.class-archetypes h3,*/
+section.equip-sub h3,
+/*section.religion h5,*/
+section.lo-religion h3,
+section.deity h3,
+section.spells-rituals-subchap h3,
+section.craft-treasure-alchemicalitems h3,
+/*section.craft-treasure-consumables h3,*/
+section.craft-treasure-snares h3,
+section.craft-treasure-worn h3,
+section.craft-treasure-worn section section.craft-treasure-worn-companion-invest h3,
+section.craft-treasure-runes h3,
+/*section.craft-treasure-staves h3,*/
+section.craft-treasure-wands h3,
+section.craft-treasure-materials h3,
+section.gm-subchap h5,
+section.hazards h3,
+section.game-mode h5,
+section.using-npc-gallery h3 {
+	box-sizing: border-box;
+	color: #a86753;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.25em;
+	margin-top: 0.5em;
+	text-transform: initial;
+}
+
+
+
+section.archetype h1,
+section.archetype-description h1,
+section.archetype-multiclass h1 {
+	margin-top: 0;
+}
+
+section.archetype div.arch-addfeats div.line:first-child {
+	font-weight: bold;
+}
+
+
+
+
+/*
+	Описания действий, навыков, способностей, заклинаний, опасностей, предметов
+*/
+
+section.ancestry-class-feats section,
+section.spells-descr section,
+section.spell,
+section.gen-skill-actions section,
+section.skill-descr section,
+section.feats-descr section,
+section.section,
+section.expl-activities section,
+section.spells-focus section,
+section.rituals-list section,
+section.hazards-list section,
+section.vehicles-list section,
+section.siege-weapons-list section,
+section.relic-gifts section,
+section.gmg-intelligent-items section,
+section.gmg-cursed-items section,
+section.artifacts-list section,
+section.afflictions-list section,
+section.planes section,
+section.craft-treasure-bombs section,
+section.craft-treasure-elixirs section,
+section.craft-treasure-poisons section,
+section.craft-treasure-alchtools section,
+section.craft-treasure-armor section,
+section.craft-treasure-ammunition section,
+section.craft-treasure-oils section,
+section.craft-treasure-potions section,
+section.craft-treasure-scrolls section,
+section.craft-treasure-talismans section,
+section.craft-treasure-fulus section,
+section.craft-treasure-gadgets section,
+section.craft-treasure-other section,
+section.craft-treasure-held section,
+section.craft-treasure-materials-list section,
+section.craft-treasure-runes section,
+section.craft-treasure-runes-accessory section,
+section.craft-treasure-shields section,
+section.craft-treasure-snares section,
+section.craft-treasure-staves-list section,
+section.craft-treasure-structures section,
+section.craft-treasure-wands section,
+section.craft-treasure-weapons section,
+section.craft-treasure-worn section,
+section.craft-treasure-artifact section,
+section.craft-treasure-adjustment section,
+section.craft-treasure-grimoires section,
+section.craft-treasure-tattooslist section,
+section.craft-treasure-spell-catalysts section,
+section.craft-treasure-spellhearts section,
+section.craft-customizations section,
+section.contracts section,
+section.actions-descr section {
+	margin-top: 1.2em;
+}
+
+section.ancestry-class-feats section > p,
+section.spells-descr section > p,
+section.spell > p,
+section.gen-skill-actions section > p,
+section.skill-descr section > p,
+section.feats-descr section > p,
+section.animal > p,
+section.companion > p,
+section.expl-activities section > p,
+section.spells-focus section > p,
+section.rituals-list section > p,
+section.hazards-list section > p,
+section.vehicles-list section > p,
+section.siege-weapons-list section > p,
+section.relic-gifts section > p,
+section.gmg-intelligent-items section > p,
+section.gmg-cursed-items section > p,
+section.artifacts-list section > p,
+section.afflictions-list section > p,
+section.planes section > p,
+section.craft-treasure-bombs section > p,
+section.craft-treasure-elixirs section, > p,
+section.craft-treasure-poisons section, > p,
+section.craft-treasure-alchtools section, > p,
+section.craft-treasure-armor section > p,
+section.craft-treasure-ammunition section > p,
+section.craft-treasure-oils section > p,
+section.craft-treasure-potions section > p,
+section.craft-treasure-scrolls section > p,
+section.craft-treasure-talismans section > p,
+section.craft-treasure-fulus section > p,
+section.craft-treasure-gadgets section > p,
+section.craft-treasure-other section > p,
+section.craft-treasure-held section > p,
+section.craft-treasure-materials-list section > p,
+section.craft-treasure-runes section > p,
+section.craft-treasure-runes-accessory section > p,
+section.craft-treasure-shields section > p,
+section.craft-treasure-snares section > p,
+section.craft-treasure-staves-list section > p,
+section.craft-treasure-structures section > p,
+section.craft-treasure-wands section > p,
+section.craft-treasure-weapons section > p,
+section.craft-treasure-worn section > p,
+section.craft-treasure-artifact section > p,
+section.craft-treasure-adjustment section > p,
+section.craft-treasure-grimoires section > p,
+section.craft-treasure-tattooslist section > p,
+section.craft-treasure-spell-catalysts section > p,
+section.craft-treasure-assistive section > p,
+section.craft-treasure-wheelchairs section > p,
+section.craft-treasure-spellhearts section > p,
+section.actions-descr section section > p,
+section.eidolon section section > p {
+	margin-bottom: 0.1em;
+	text-indent: inherit;
+}
+
+section.backgrounds section > h2,
+section.ancestry-class-feats section > h4,
+section.spells-descr section > h4,
+section.spell > h1,
+section.gen-skill-actions section > h4,
+section.skill-descr section > h4,
+section.feats-descr section > h3,
+section.animal > h4,
+section.companion > h3,
+section.archetype-multiclass section > h3,
+section.archetype section > h2,
+section.archetype-feats section > h3,
+section.hellknight-order-abilities section > h3,
+section.expl-activities section > h4,
+section.spells-focus section > h2,
+section.rituals-list section > h2,
+section.hazards-list section > h2,
+section.vehicles-list section > h3,
+section.siege-weapons-list section > h3,
+section.relic-gifts section > h3,
+section.gmg-intelligent-items section > h3,
+section.gmg-cursed-items section > h3,
+section.artifacts-list section > h3,
+section.afflictions-list section > h3,
+section.planes section > h3,
+section.craft-treasure-bombs section > h4,
+section.craft-treasure-elixirs section > h4,
+section.craft-treasure-poisons section > h4,
+section.craft-treasure-alchtools section > h3,
+section.craft-treasure-armor section > h3,
+section.craft-treasure-ammunition section > h4,
+section.craft-treasure-oils section > h3,
+section.craft-treasure-potions section > h3,
+section.craft-treasure-scrolls section > h4,
+section.craft-treasure-talismans section > h4,
+section.craft-treasure-fulus section > h4,
+section.craft-treasure-gadgets section > h3,
+section.craft-treasure-other section > h3,
+section.craft-treasure-held section > h2,
+section.craft-treasure-materials-list section > h3,
+section.craft-treasure-runes section > h4,
+section.craft-treasure-runes-accessory section > h3,
+section.craft-treasure-shields section > h3,
+section.craft-treasure-snares section > h3,
+section.craft-treasure-staves-list section > h3,
+section.craft-treasure-structures section > h2,
+section.craft-treasure-wands section > h4,
+section.craft-treasure-weapons section > h3,
+section.craft-treasure-worn section > h3,
+section.craft-treasure-artifact section > h2,
+section.craft-treasure-adjustment section > h2,
+section.craft-treasure-grimoires section > h2,
+section.craft-treasure-tattooslist section > h3,
+section.craft-treasure-spell-catalysts section > h3,
+section.craft-treasure-assistive section > h3,
+section.craft-treasure-wheelchairs section > h4,
+section.craft-treasure-spellhearts section > h2,
+section.craft-customizations section > h3,
+section.contracts section > h3,
+section.actions-descr section section > h5 {
+	box-sizing: border-box;
+	color: #404040;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.3em;
+	margin-top: 0.8em;
+	text-transform: uppercase;
+}
+
+
+
+section.ancestry-class-feats section hr,
+section.spells-descr section hr,
+section.spell hr,
+section.gen-skill-actions section hr,
+section.skill-descr section hr,
+section.feats-descr section hr,
+section.animal hr,
+section.companion hr,
+section.archetype-multiclass section hr,
+section.archetype section hr,
+section.archetype-feats section hr,
+section.hellknight-order-abilities section hr,
+section.expl-activities section hr,
+section.spells-focus section hr,
+section.rituals-list section hr,
+section.hazards-list section hr,
+section.vehicles-list section hr,
+section.siege-weapons-list section hr,
+section.relic-gifts section hr,
+section.gmg-intelligent-items section hr,
+section.gmg-cursed-items section hr,
+section.artifacts-list section hr,
+section.afflictions-list section hr,
+section.planes section hr,
+section.craft-treasure-bombs section hr,
+section.craft-treasure-elixirs section hr,
+section.craft-treasure-poisons section hr,
+section.craft-treasure-alchtools section hr,
+section.craft-treasure-armor section hr,
+section.craft-treasure-ammunition section hr,
+section.craft-treasure-oils section hr,
+section.craft-treasure-potions section hr,
+section.craft-treasure-scrolls section hr,
+section.craft-treasure-talismans section hr,
+section.craft-treasure-fulus section hr,
+section.craft-treasure-gadgets section hr,
+section.craft-treasure-other section hr,
+section.craft-treasure-held section hr,
+section.craft-treasure-materials-list section hr,
+section.craft-treasure-runes section hr,
+section.craft-treasure-runes-accessory section hr,
+section.craft-treasure-shields section hr,
+section.craft-treasure-snares section hr,
+section.craft-treasure-staves-list section hr,
+section.craft-treasure-structures section hr,
+section.craft-treasure-wands section hr,
+section.craft-treasure-weapons section hr,
+section.craft-treasure-worn section hr,
+section.craft-treasure-artifact section hr,
+section.craft-treasure-adjustment section hr,
+section.craft-treasure-grimoires section hr,
+section.craft-treasure-tattooslist section hr,
+section.craft-treasure-spell-catalysts section hr,
+section.craft-treasure-assistive section hr,
+section.craft-treasure-wheelchairs section hr,
+section.craft-treasure-spellhearts section hr,
+section.craft-customizations section hr,
+section.contracts section hr,
+section.actions-descr section hr,
+section.eidolon hr {
+	border-top: 1px solid #404040;
+	margin: 1px 0;
+}
+
+section.animal,
+section.companion {
+	margin-top: 1.5em;
+}
+
+section.animal h4,
+section.companion h3 {
+	box-sizing: border-box;
+	color: #404040;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.3em;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+section.gen-skill-actions section > h5 { /* некоторые подробности по действиям скиллов */
+	box-sizing: border-box;
+	color: #a86753;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.3em;
+	margin-top: 0;
+	text-transform: inherit;
+}
+
+section.ancestry-class-feats h3,
+/*section.spells-focus h3,*/
+/*section.feats-descr h2,*/
+section.spells-descr h3 { /* Выделение алфавитного заголовка */
+	background-color: #002664;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #ede3c8;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: bolder;
+	margin-bottom: 0.3em;
+	margin-top: 0;
+	padding: 10px;
+	text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+
+/*
+	Описание фита/умения
+	Если надо по жесткому назначить какому-либо разделу стиль описания
+	когда он идет отдельно в тексте
+*/
+
+/*section.description {
+	margin-top: 0.8em;
+}*/
+
+section.description > p {
+	margin-bottom: 0.1em;
+	text-indent: inherit;
+}
+
+section.description > h1,
+section.description > h2,
+section.description > h3,
+section.description > h4,
+section.description > h5,
+section.description > h6 {
+	box-sizing: border-box;
+	color: #404040;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.3em;
+	margin-top: 0.8em;
+	text-transform: uppercase;
+}
+
+section.description hr {
+	border-top: 1px solid #404040;
+	margin: 1px 0;
+}
+
+
+/*
+	Существо
+*/
+
+section.creature {
+	margin-top: 1.2em;
+}
+
+section.creature > p {
+	margin-bottom: 0.1em;
+	text-indent: inherit;
+}
+
+section.creature > h1,
+section.creature > h2,
+section.creature > h3,
+section.creature > h4,
+section.creature > h5 {
+	box-sizing: border-box;
+	color: #404040;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	margin-bottom: 0.3em;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+section.creature hr {
+	border-top: 1px solid #404040;
+	margin: 1px 0;
+}
+
+/*section.creature-details p a:first-child[href*="ability_glossary"],*/
+section.creature p a:first-child[href*="ability_glossary"],
+section.creature p a:first-child[href*="Creating-"],
+section.bst-ability-link p a:first-child[href*="ability_glossary"],
+section.bst-ability-link p a:first-child[href*="Creating-"],
+section.afflictions-list p a:first-child[href*="afflictions-curses-tempting"],
+p.ability-link a:first-child[href*="ability_glossary"] {
+	font-weight: bold;
+}
+
+
+section.creature-details aside.sidebar {
+	background-color: #efede9;
+	border: solid #5e0000;
+	border-width: 0 0 0 1px;
+	padding-top: 0em;
+	padding-bottom: 0.6em;
+	width: 33%;
+}
+
+section.creature-details aside.sidebar p.sidebar-title {
+	background-color: #efede9;
+	margin-left: -0.6em;
+	margin-right: -0.6em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+section.creature-details aside.sidebar > p {
+	color: #5e0000;
+	margin-bottom: 0;
+	text-indent: initial;
+	line-height: 1.4em;
+}
+
+section.creature-details aside.sidebar p.rubric {
+	color: #5e0000;
+	margin-bottom: 0.3em;
+	margin-top: 0.8em;
+	text-indent: initial;
+	text-transform: uppercase;
+}
+
+
+
+/*
+	Божество/вера (Deity/faith)
+*/
+
+section.deity h1 {
+	box-sizing: border-box;
+	color: #5e0000;
+	font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 0.2em;
+	margin-top: 0;
+	text-transform: initial;
+}
+
+p.rubric.deity-title {
+	font-size: 110%;
+	margin-bottom: 0.2em;
+}
+
+
+
+/*
+	Эйдолон (Eidolon)
+*/
+
+section.eidolon {
+	margin-top: 2em;
+}
+
+section.eidolon section.description {
+	margin-top: 0.5em;
+}
+
+
+
+/*
+	Признаки, состояния
+*/
+
+/* признаки остальные */
+span[class^="t-"] {
+	color: #5d0100;
+	text-decoration: underline;
+}
+
+/* признаки оружия */
+span[class^="w-"] {
+	color: #0F6177;
+	text-decoration: underline;
+}
+
+/* признаки доспехов */
+span[class^="a-"] {
+	color: #0F6177;
+	text-decoration: underline;
+}
+
+/* состояния */
+span[class^="c-"] {
+	color: #483d8b;
+	text-decoration: underline;
+}
+
+/* размер существа */
+span[class^="s-"] {
+	color: #336A4D;
+	text-decoration: underline;
+}
+
+/* редкость */
+span[class^="r-"] {
+	color: #590F77;
+	text-decoration: underline;
+}
+
+
+
+/*
+	Универсальные стили списка признаков
+*/
+
+ul.traits,
+section > h1 + ul,
+section > h2 + ul,
+section > h3 + ul,
+section > h4 + ul,
+section > h5 + ul,
+section > h6 + ul {
+	display: inherit;
+	margin-bottom: 0;
+	padding-inline-start: 0.2em;
+}
+
+ul.traits li,
+section > h1 + ul li,
+section > h2 + ul li,
+section > h3 + ul li,
+section > h4 + ul li,
+section > h5 + ul li,
+section > h6 + ul li {
+	background-color: #d9c484;
+	display: inline-block;
+	margin: 0.1em -0.05em !important;
+	padding: 0.1em 0.25em;
+	list-style-type: none !important;
+}
+
+ul.traits li p,
+section > h1 + ul li p,
+section > h2 + ul li p,
+section > h3 + ul li p,
+section > h4 + ul li p,
+section > h5 + ul li p,
+section > h6 + ul li p {
+	background-color: #5e0000;
+	color: #fff;
+	display: inline-block;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0 0.25em;
+}
+
+
+/*
+	Окрашенные признаки, редкости и т.п.
+*/
+
+ul.traits li p span.uncommon,
+section > h1 + ul li p span.uncommon,
+section > h2 + ul li p span.uncommon,
+section > h3 + ul li p span.uncommon,
+section > h4 + ul li p span.uncommon,
+section > h5 + ul li p span.uncommon,
+section > h6 + ul li p span.uncommon {
+	background-color: #98513d;
+	box-sizing: content-box;
+	display: inline-block;
+	margin-left: -0.25em;
+	padding: 0 0.25em;
+	width: 100%;
+}
+
+ul.traits li p span.rare,
+section > h1 + ul li p span.rare,
+section > h2 + ul li p span.rare,
+section > h3 + ul li p span.rare,
+section > h4 + ul li p span.rare,
+section > h5 + ul li p span.rare,
+section > h6 + ul li p span.rare {
+	background-color: #002664;
+	box-sizing: content-box;
+	display: inline-block;
+	margin-left: -0.25em;
+	padding: 0 0.25em;
+	width: 100%;
+}
+
+ul.traits li p span.unique,
+section > h1 + ul li p span.unique,
+section > h2 + ul li p span.unique,
+section > h3 + ul li p span.unique,
+section > h4 + ul li p span.unique,
+section > h5 + ul li p span.unique,
+section > h6 + ul li p span.unique {
+	background-color: #53156d;
+	box-sizing: content-box;
+	display: inline-block;
+	margin-left: -0.25em;
+	padding: 0 0.25em;
+	width: 100%;
+}
+
+ul.traits li p span.alignment,
+section > h1 + ul li p span.alignment,
+section > h2 + ul li p span.alignment,
+section > h3 + ul li p span.alignment,
+section > h4 + ul li p span.alignment,
+section > h5 + ul li p span.alignment,
+section > h6 + ul li p span.alignment {
+	background-color: #576293;
+	box-sizing: content-box;
+	display: inline-block;
+	margin-left: -0.25em;
+	padding: 0 0.25em;
+	width: 100%;
+}
+
+ul.traits li p span.size,
+section > h1 + ul li p span.size,
+section > h2 + ul li p span.size,
+section > h3 + ul li p span.size,
+section > h4 + ul li p span.size,
+section > h5 + ul li p span.size,
+section > h6 + ul li p span.size,
+ul.traits li p span.settlement_type,
+section > h1 + ul li p span.settlement-type,
+section > h2 + ul li p span.settlement-type,
+section > h3 + ul li p span.settlement-type,
+section > h4 + ul li p span.settlement-type,
+section > h5 + ul li p span.settlement-type,
+section > h6 + ul li p span.settlement-type {
+	background-color: #3b7b59;
+	box-sizing: content-box;
+	display: inline-block;
+	margin-left: -0.25em;
+	padding: 0 0.25em;
+	width: 100%;
+}
+
+
+span.eop-comment {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	color: #5e0000;
+	font-style: italic;
+}
+
+div.narration {
+	margin-top: 0.25em;
+	margin-left: 0.5em;
+	margin-bottom: 0.25em;
+	color: darkgreen;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
