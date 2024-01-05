@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Starfinder 2E'
+copyright = '2023, FOCC'
+author = 'FOCC'
 
 release = '0.1'
 version = '0.1.0'
