@@ -6,6 +6,8 @@
 
 .. role:: w_area
 
+.. role:: w_automatic
+
 
 
 .. Признаки доспехов
