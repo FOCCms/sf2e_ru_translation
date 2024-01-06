@@ -10,7 +10,7 @@
    :maxdepth: 1
 
    glossary_index
-   
+   weapon_description
 
 
 
