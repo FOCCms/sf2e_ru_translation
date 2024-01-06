@@ -32,7 +32,8 @@ $(document).ready( function() {
 
 	traits_dict = {
 		"attack": "Атака (attack): Умение с этим признаком подразумевают атаку. В ваш ход, для каждой атаки после первой, вы получаете штраф множественной атаки.",
-		"area": "Область (area): Это оружие может стрелять только с использованием действия \"Огонь по области (Area Fire)\"",
+		"area": "Область (area): Это оружие может стрелять только с использованием действия \"Огонь по области (Area Fire)\".",
+		"automatic": "Автоматическое (Automatic): В дополнение к обычной Атаке вы можете стрелять из этого оружия, используя действие \"Автоматический огонь (Automatic Fire)\".",
 		// "11111111": "22222222 (11111111): 33333333",
 	}
 
@@ -52,6 +53,7 @@ $(document).ready( function() {
 
 	$('ul.traits li:textEquals("атака")').tooltipster({content: traits_dict["attack"]});
 	$('ul.traits li:textEquals("область")').tooltipster({content: traits_dict["area"]});
+	$('ul.traits li:textEquals("автоматическое")').tooltipster({content: traits_dict["automatic"]});
 
 
 	// $('span.t-11111111').tooltipster({content: traits_dict["11111111"]});

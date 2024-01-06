@@ -90,7 +90,7 @@
 
 В дополнение к обычной Атаке вы можете стрелять из этого оружия, используя действие "Автоматический огонь (Automatic Fire)".
 
-| :ref:`ch1--Ability-Automatic-Fire`
+| :ref:`action--Automatic-Fire`
 
 
 .. _trait--weapon--Tracking:
