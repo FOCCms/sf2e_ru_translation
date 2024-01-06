@@ -5,6 +5,7 @@ Starfinder 2E
    :maxdepth: 2
 
    classes/index
+   equipment/index
    appendix/index
 
 
