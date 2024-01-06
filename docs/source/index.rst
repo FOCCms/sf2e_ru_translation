@@ -5,7 +5,7 @@ Starfinder 2E
    :maxdepth: 2
 
    classes/index
-
+   appendix/index
 
 
 .. **Lumache** (/lu'make/) is a Python library for cooks and food lovers
