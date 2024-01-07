@@ -5,6 +5,8 @@
 
 .. role:: c_slowed
 
+.. role:: c_suppressed
+
 
 .. Признаки оружия
 

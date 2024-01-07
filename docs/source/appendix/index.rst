@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 1
 
+   conditions
    glossary_index
    weapon_description
 
