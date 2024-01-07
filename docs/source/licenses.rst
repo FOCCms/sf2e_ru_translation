@@ -60,6 +60,7 @@ Open RPG Creative
 This Open RPG Creative license (“ORC License”) grants the right to use Licensed Material subject to the terms and conditions set forth and referenced as follows:
 
 I. Definitions. 
+
 a. Adapted Licensed Material means Derivative Works that Use all or any portion of the Licensed Material that You create or publish to the limited extent that such Derivative Works would otherwise constitute those forms of Licensed Material set forth in Section I.e.(2) below. Adapted Licensed Material expressly excludes works that would constitute Reserved Material. 
 
 b. Copyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. In no event shall Copyright and Similar Rights include trademark or patent rights. 
@@ -69,9 +70,13 @@ c. Derivative Work means: (i) for a product that Uses a single playable game sys
 d. Effective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements. 
 
 e. Licensed Material means (1) any material contained in a Work that would otherwise constitute Reserved Material but that has been expressly designated as Licensed Material by that material’s Licensor, and (2) those expressions reasonably necessary to convey functional ideas and methods of operation of a game that are contained in a Work that are comprised of systems, procedures, processes, rules, laws, instructions, heuristics, routines, functional elements, commands, structures, principles, methodologies, operations, devices, and concepts of play, and the limitations, restraints, constraints, allowances, and affordances inherent in gameplay, including but not limited to expressions describing the function of or providing instructions as to the following:
+
 i. Creation and play of player and non-player characters (such as statistics, attributes, statblocks, traits, classes, jobs, alignments, professions, proficiencies, abilities, spells, skills, actions, reactions, interactions, resources, and equipment);
+
 ii. Systems and classifications applicable to gameplay (such as alignments, backgrounds, classes, experience points, levels and leveling up, encounters, combat, initiative and turn order, movement, monster statistics, creature types, traps, conditions, buffs and debuffs, powers, terrain types, challenge ratings, moves, difficulty classes, skill checks, saving throws, resting and resource management, classification of magic systems, spell and ability effects, looting, items and equipment, diplomacy systems, dialogue options, and outcome determination);
+
 iii. Methods of determining success, failure, or outcome, and any expressions of such methods or of such successes, failures, or outcomes; and
+
 iv. Methods and mediums by which players play the game (such as dice rolling, random number generation, coin flipping, card drawing and play, applying modifiers to results of chance, creating or filling in character sheets, moving and interacting with tokens or figurines, drawing maps and illustrations, speaking, messaging, acting, pantomime, writing notes, asking questions, and making statements). 2 The term Licensed Material shall in no event include Third Party Reserved Material. For the avoidance of doubt, the term Licensed Material is intended to exclude Reserved Material except to the limited extent a Licensor has expressly designated content that would otherwise constitute their Reserved Material as Licensed Material pursuant to notice published under Article III. 
 
 f. Licensed Rights means the rights granted to You subject to the terms and conditions of this ORC License, which are limited to all Copyright and Similar Rights that apply to Your Use of the Licensed Material and that the Licensor has authority to license. 
@@ -100,8 +105,11 @@ b. Grant of Adapted Licensed Material by You. You hereby receive an offer from t
 c. Database Rights. Where the Licensed Rights include Sui Generis Database Rights that apply to Your Use of the Licensed Material, this ORC License grants You the right to extract, reuse, reproduce, and Use all or a substantial portion of the contents of the database, and if You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) shall constitute Adapted Licensed Material. 
 
 d. Limitations.
+
 i. Nothing in this ORC License constitutes or may be construed as permission to assert or imply that You are, or that Your Use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution hereunder.
+
 ii. Moral rights, such as the right of integrity, are not licensed under this ORC License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.
+
 iii. To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights and Use of the Licensed Material, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme.
 
 III. Required Notice. 
@@ -111,7 +119,9 @@ a. ORC Notice. The following statement designating the location and the terms of
 This product is licensed under the ORC License located at the Library of Congress at TX 9-307-067 and available online at various locations. All warranties are disclaimed as set forth therein. 
 
 b. Attribution Notice.
+
 i. A statement based on reasonable, good-faith efforts that identifies each Licensor or creator of the Licensed Material You Used and any others designated to receive attribution, including all upstream licensors of Licensed Material upon which Your Adapted Licensed Material is based or derived from, worded in any accurate and reasonable manner so requested by such parties. Such credit may be named, anonymous, or a reasonable pseudonym. For the avoidance of doubt, both Licensor and all parties similarly credited under Licensor’s attribution notice should be included in Your attribution notice unless otherwise reasonably indicated by such parties.
+
 ii. A statement indicating how You wish to be reasonably credited with respect to the Adapted Licensed Material licensed by You under this ORC License, including anonymously or by pseudonym if designated. Licensors and creators may update their name, anonymity designation, or pseudonym from time-to-time by notice to You and other known licensees hereunder; however, such change shall in no event require You to halt distribution of any 4 Works You have produced or destroy any produced Works or Works-in-progress, but shall merely require You to use good faith efforts to implement the requested change on a going forward basis. 
 
 c. Reserved Material Notice. A statement based on reasonable, good-faith efforts that identifies the elements of Your Reserved Material, if any, contained in the Derivative Work in which You Use the Licensed Material. For avoidance of doubt, such designation neither limits Your rights in Your Reserved Material nor limits any downstream licensee’s Use of the Adapted Licensed Material. In the event of a conflict between Your designation of Reserved Material and the definition of Licensed Material, the definition shall control. 
@@ -121,17 +131,30 @@ d. Expressly Designated Licensed Material. A statement that identifies any eleme
 Sample Notice. By way of example only, the following notice would comply with the requirements of this ORC License:
 
 ORC Notice	This product is licensed under the ORC License located at the Library of Congress at TX 9-307-067 and available online at various locations including [possible domain names may be inserted] and others. All warranties are disclaimed as set forth therein.
+
 Attribution	This product is based on the following Licensed Material:
+
 [Title of Work], [Copyright Notice], [Author Credit Information].
 [Title of Additional Work], [Copyright Notice], [Author Credit Information], [Etc.].
+
 If you use our Licensed Material in your own published works, please credit us as follows:
+
 [Title of This Work], [Copyright Notice], [Your Author Credit Information].
-Reserved Material	Reserved Material elements in this product include, but may not be limited to: The Skeleton Krew, The Horrible Nation of Funeralia, The Order of Ossuaries & Edgelords, and all elements designated as Reserved Material under the ORC License.
-Expressly Designated Licensed Material	The following elements are owned by the Licensor and would otherwise constitute Reserved Material and are hereby designated as Licensed Material: The Bardic Order of the Singing Skull and associated characters, locations, and titles.
+
+Reserved Material	
+
+Reserved Material elements in this product include, but may not be limited to: The Skeleton Krew, The Horrible Nation of Funeralia, The Order of Ossuaries & Edgelords, and all elements designated as Reserved Material under the ORC License.
+
+Expressly Designated Licensed Material	
+
+The following elements are owned by the Licensor and would otherwise constitute Reserved Material and are hereby designated as Licensed Material: The Bardic Order of the Singing Skull and associated characters, locations, and titles.
+
 IV. Warranty & Limitation of Liability. 
+
 Licensor warrants, represents, acknowledges, and agrees that upon publication of Required Notice in a Licensor Work, Licensor may not thereafter withdraw, modify, or revoke such offer to license the Licensed Material hereunder as to any existing licensee or any prospective licensee, and Licensor’s offer to license such Licensed Material is irrevocable. Licensor licenses the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You. To the extent possible, in no event will the 5 Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this ORC License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You. The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
 
-V. Other Terms & Conditions. 
+V. Other Terms & Conditions.
+ 
 a. Termination & Remedies. Your license to Use the Licensed Material will terminate automatically if You fail to comply with the terms and condition of this ORC License. Your license will be reinstated, effective as of the date of termination, if You cure such violation on a going forward basis (without the obligation to destroy inventory on hand) within 60 days of Your discovery of the violation or if Licensor waives such violation in writing. No such termination shall affect, limit, or disrupt the rights of any Licensor or downstream licensee of any Licensed Material under any ORC License. Only the Licensor and Licensor’s upstream licensors under this ORC License (which You are deemed to be in privity herewith) may bring enforcement action against You hereunder. This constitutes a limitation on Licensor remedies with respect to the license grant in the Licensed Material hereunder; however, this ORC License neither limits Licensor’s remedies in any way with respect to Licensor’s Reserved Material, nor does it limit Licensor’s right to offer the Licensed Material or Reserved Material under separate terms or conditions. 
 
 b. Modifications. This ORC License may not be amended, superseded, modified, updated, repealed, revoked, or deauthorized. Neither You nor Licensor may modify the terms of this ORC License; however, You may enter into a separate agreement of Your own making provided such agreement does not seek to modify the terms hereof. This ORC License does not, and shall not be interpreted to reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this ORC License. 
