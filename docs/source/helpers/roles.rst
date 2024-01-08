@@ -9,6 +9,8 @@
 
 .. role:: c_suppressed
 
+.. role:: c_concealed
+
 
 .. Признаки оружия
 

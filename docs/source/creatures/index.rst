@@ -17,6 +17,13 @@
    
    bestiary/*
 
+Глоссарий умений (Ability Glossary)
+============================================================================================================
+
+.. toctree::
+   :maxdepth: 1
+   
+   ability_glossary
 
 .. include:: /helpers/actions.rst
 .. include:: /helpers/bestiary-icons.rst
