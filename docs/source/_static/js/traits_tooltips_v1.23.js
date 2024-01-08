@@ -43,7 +43,10 @@ $(document).ready( function() {
 	traits_dict = {
 		"attack": "Атака (attack): Умение с этим признаком подразумевают атаку. В ваш ход, для каждой атаки после первой, вы получаете штраф множественной атаки.",
 		"area": "Область (area): Это оружие может стрелять только с использованием действия \"Огонь по области (Area Fire)\".",
+		"auditory": "Слуховой (auditory): Действия и эффекты с признаком \"слуховой\" полагаются на звук. Действие с признаком \"слуховой\" может быть успешным только, если существо использующее это действие может говорить или иным образом воспроизводить требуемые звуки. Заклинание или эффект с признаком \"слуховой\" обладает своими эффектами только, если цель может слышать его. На усмотрение Мастера, это применяется только к частям эффекта основанным на звуке. Это отличается от эффектов с признаком \"звук\", все равно воздействующих на цели, которые не могут слышать (такие как глухие цели), пока сам эффект издает звук.",
 		"automatic": "Автоматическое (Automatic): В дополнение к обычной Атаке вы можете стрелять из этого оружия, используя действие \"Автоматический огонь (Automatic Fire)\".",
+		"manipulate": "Воздействие (manipulate): Вы должны физически воздействовать предметом или выполнять жесты, чтобы использовать действие с этим признаком. Существа без подходящей конечности не могут выполнять действия с этим признаком. Действия с признаком \"воздействие\" часто провоцируют реакции.",
+		
 		"soldier": "Солдат (Soldier): Обозначает умения класса солдата.",
 		// "11111111": "22222222 (11111111): 33333333",
 	}
@@ -64,13 +67,16 @@ $(document).ready( function() {
 
 	$('ul.traits li:textEquals("атака")').tooltipster({content: traits_dict["attack"]});
 	$('ul.traits li:textEquals("область")').tooltipster({content: traits_dict["area"]});
+	$('ul.traits li:textEquals("слуховой")').tooltipster({content: traits_dict["auditory"]});
 	$('ul.traits li:textEquals("автоматическое")').tooltipster({content: traits_dict["automatic"]});
+	$('ul.traits li:textEquals("воздействие")').tooltipster({content: traits_dict["manipulate"]});
 	$('ul.traits li:textEquals("солдат")').tooltipster({content: traits_dict["soldier"]});
 
 
 
 	// $('span.t-11111111').tooltipster({content: traits_dict["11111111"]});
-
+	$('span.t-auditory').tooltipster({content: traits_dict["auditory"]});
+	$('span.t-manipulate').tooltipster({content: traits_dict["manipulate"]});
 	$('span.t-soldier').tooltipster({content: traits_dict["soldier"]});
 
 });

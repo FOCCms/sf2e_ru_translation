@@ -34,4 +34,10 @@
 .. Остальные признаки
 
 
+.. role:: t_auditory
+
+.. role:: t_manipulate
+
 .. role:: t_soldier
+
+
