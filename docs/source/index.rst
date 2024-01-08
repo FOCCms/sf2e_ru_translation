@@ -18,6 +18,7 @@ Starfinder 2E
    classes/index
    equipment/index
    playing_the_game
+   creatures/index
    appendix/index
 
 .. toctree::
