@@ -1,4 +1,6 @@
 
+.. role:: size
+
 .. Состояния
 
 .. role:: c_dazzled

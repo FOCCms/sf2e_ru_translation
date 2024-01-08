@@ -55,6 +55,12 @@ $(document).ready( function() {
 
 	// Размер
 
+	$('span.size:textEquals("исполинский")').tooltipster({content: traits_dict["gargantuan"]});
+	$('span.size:textEquals("огромный")').tooltipster({content: traits_dict["huge"]});
+	$('span.size:textEquals("большой")').tooltipster({content: traits_dict["large"]});
+	$('span.size:textEquals("средний")').tooltipster({content: traits_dict["medium"]});
+	$('span.size:textEquals("маленький")').tooltipster({content: traits_dict["small"]});
+	$('span.size:textEquals("крошечный")').tooltipster({content: traits_dict["tiny"]});
 
 	// Признаки... без какого-либо описания, но использующиеся
 
